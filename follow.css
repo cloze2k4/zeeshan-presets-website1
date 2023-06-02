@@ -1,0 +1,44 @@
+.follow{
+    text-align: center;
+
+   
+    margin:  0;
+
+    font-family: 'futura-pt', sans-serif;
+    font-weight: lighter;
+    font-size: 50px;
+    letter-spacing: .07em;
+   
+    text-transform: none;
+    background-color: #f6f6f6;
+
+    padding-top: 100px;
+    text-align: center;
+    white-space: pre-wrap;
+}
+.social-media-links{
+    display: flex;
+    flex: 1fr 1fr;
+    column-gap: 30px;
+    margin: 0 640px;
+
+}
+.insta{
+    height: 20px;
+    width: 30px;
+    object-fit: contain;
+    margin-top: 2px;
+}
+.youtube{
+    height: 25px;
+    width: 70px;
+    object-fit: contain;
+}
+.below-section{
+   
+    height: 570px;
+    background-color: #f6f6f6;
+
+   
+    margin-bottom: 30px;
+}

@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+.about{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 200;
+font-weight: 100;
+font-style: normal;
+font-size: 57px;
+letter-spacing: .07em;
+line-height: .9em;
+text-transform: none;
+margin-left: 90px;
+margin-top: 30px;
+padding-bottom: 41.44px;
+display: inline-block;
+}
+.paragraph{
+
+color: rgb(0, 0, 0);
+display: inline;
+font-family: 'Quicksand', sans-serif;
+font-size: 16px;
+font-style: italic;
+font-weight: 300;
+letter-spacing: 0.9599999785423279px;
+line-height: 25.600000381469727px;
+pointer-events: auto;
+text-transform: none;
+white-space: pre-wrap;
+width: 900px;
+word-wrap: break-word;
+display: inline-block;
+}
+.o_bhai{
+    margin-left: 20px;
+    
+}
+.pictures{
+    display: flex;
+   flex-direction: row;
+   column-gap: 10px;
+ 
+   margin-top: 41.40px;
+   margin-bottom: 41.40px;
+
+margin-right: 0px;
+}
+.first-picture{
+    padding-left: 90px;
+    height: 391.5px;
+    width: 110px;
+    object-fit: cover;
+    margin-top: 0px;
+}
+.second-picture{
+    height: 391.5px;
+    width: 300px;
+    object-fit: cover;
+    margin-top: 0px;
+}
+.third-picture{
+    height: 391.5px;
+    width: 110px;
+    object-fit: cover;
+    margin-top: 0px;
+    margin-right: 0px;
+}

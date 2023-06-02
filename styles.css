@@ -1,0 +1,115 @@
+
+.main-pic{
+   height: 700px;
+   width: 88%;
+   padding-left: 6%; 
+   object-fit: contain;
+   position: relative;
+   object-fit: cover;
+   
+}
+.heading{
+    color: #54b3d6;
+    position: absolute;
+    float: left;
+    margin-left: 98.5px;
+    margin-top: 50px;
+    top: 10%;
+    width: 100%;
+    font-family: 'futura-pt',  Impact,  'Arial Narrow Bold';
+    font-size: 170px;
+    width: 100px;
+    opacity: 0.4;
+    transition: color .2s ease-in-out, box-shadow .5s ease-in-out;
+    }
+.heading:hover {
+    box-shadow: inset 1600px 70 70 70 #f5e20a;
+    color: rgb(236, 17, 17);
+    padding-right: 267px;
+    padding-bottom: 85px;
+  }
+
+.presets section{
+    margin-top: 60px;
+}
+.pre1{
+margin-top: 70px;
+    float: left;
+    height: 300px;
+    width: 400px;
+    object-fit: contain;
+    margin-left: -30px;
+   
+}
+.pre1:hover{
+    opacity: 0.8;
+    transition: 0.2s;
+}
+.image-slide-title{
+    -webkit-text-size-adjust: 100%;
+    pointer-events: auto;
+    font-family: futura-pt;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: .06em;
+    line-height: 1.6em;
+    text-transform: none;
+    color: rgb(27, 26, 26);
+    -webkit-font-smoothing: subpixel-antialiased;
+    display: block;
+ margin-left: 120px;
+    font-size: 14px;
+    margin-top: .5em;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    float: left;
+}
+.image-slide-title1{
+    -webkit-text-size-adjust: 100%;
+    pointer-events: auto;
+    font-family: futura-pt;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: .06em;
+    line-height: 1.6em;
+    text-transform: none;
+    color: rgb(27, 26, 26);
+    -webkit-font-smoothing: subpixel-antialiased;
+    display: block;
+ margin-left: 125px;
+    font-size: 14px;
+    margin-top: .5em;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    float: left;
+}
+.image-slide-title2{
+    -webkit-text-size-adjust: 100%;
+    pointer-events: auto;
+    font-family: futura-pt;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: .06em;
+    line-height: 1.6em;
+    text-transform: none;
+    color: rgb(27, 26, 26);
+    -webkit-font-smoothing: subpixel-antialiased;
+    display: block;
+ margin-left: 125px;
+    font-size: 14px;
+    margin-top: .5em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    float: left;
+}
+.image-slide-title2{
+    padding-bottom: 100px;
+}
+.image-slide-title, .image-slide-title1, .image-slide-title2{
+    margin-left: 100px;
+}

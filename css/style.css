@@ -1,0 +1,124 @@
+body,html{
+    height:100%;
+    margin:0;
+    font-size: 16px;
+    font-family:"lato",sans-serif;  
+    font-weight: 400;
+    line-height: 1.8em;
+    color:#666;
+}
+.pimg1, .pimg2, .pimg3{
+    position: relative;
+    opacity:0.70 ;
+    background-position: center;
+    background-size: cover;
+
+    background-attachment: fixed;
+}
+.pimg1{
+
+    background-image:url('../img/image1.jpg');
+    min-height: 100%;
+    
+}
+.pimg2{
+    background-image:url('../img/image2.jpg');
+    min-height: 600px;
+}
+.pimg3{
+    background-image:url('../img/image3.mov');
+    min-height: 600px;
+}
+
+.section{
+    text-align: center;
+    padding: 20px 80px;   
+}
+.section-dark{
+    background-color: #282e34;
+    color:#ddd;
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color:#000;
+    font-size: 27px;
+    letter-spacing: 8px;
+}
+.ptext .border{
+   background-color: #111;
+   color:#fff;
+   padding: 20px; 
+}
+.ptext .border{
+    background-color: transparent;
+}
+@media(max-width:568px){
+    .pimg1, .pimg2, .pimg3{
+        background-attachment: scroll;
+        
+    }
+ 
+
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+	
+
+
+
+
+#container {
+	margin: 0 auto;
+    text-align: right;
+}
+
+nav {
+	margin: 0px 0;
+	background-color: #050100;
+}
+
+nav ul {
+	padding: 0;
+    margin: 0;
+	position: relative;
+	}
+	
+nav ul li {
+	display:inline-block;
+	background-color: #050100;
+	}
+
+nav a {
+	display:block;
+	padding:0 25px;	
+	color:#FFF;
+	font-size:15px;
+	line-height: 60px;
+	text-decoration:none;
+}
+
+nav a:hover { 
+	background-color: rgb(122, 120, 59); 
+	opacity: 0.6;
+	transition: 0.5s;
+
+}
+
+.heading{
+    color: #25a0cc;
+    position: absolute;
+    float: left;
+    margin-left: -50px;
+    margin-top: -270px;
+    object-fit: contain;
+    width: 50%;
+    font-family: 'futura-pt',  Impact,  'Arial Narrow Bold';
+    font-size: 270px;
+    width: 900px;
+    opacity: 0.4;
+    
+    }
+

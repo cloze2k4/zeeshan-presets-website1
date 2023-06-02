@@ -1,0 +1,73 @@
+
+.main-pic{
+   height: 700px;
+   width: 88%;
+   margin-left: 85px; 
+   object-fit: cover;
+   position: relative;
+
+   margin-top: -5px;
+}
+.heading{
+    position: absolute;
+    float: left;
+
+    top: 10%;
+    width: 100%;
+    font-family: 'futura-pt',  Impact,  'Arial Narrow Bold';
+    font-size: 200px;
+    width: 900px;
+    opacity: 0.4;
+    
+  color: #54b3d6;
+ margin-left: 85.5px;
+ margin-top: 132px;
+ padding-bottom: 40px;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  
+}
+.heading:hover {
+    box-shadow: inset 1000px 0 0 0 #54b3d6;
+    color: white;
+  }
+
+
+.presets section{
+    margin-top: 60px;
+}
+.pre1{
+
+   
+    height: 300px;
+    width: 400px;
+    object-fit: contain;
+margin-left: 485px;
+    margin-top: 70px;
+    transition: 0.2s; 
+    
+   
+}
+.pre1:hover{
+    opacity: 0.8;
+    transition: 0.2s;
+}
+
+.image-slide-title{
+
+    font-family: futura-pt;
+    font-weight: 300;
+    font-style: normal;
+
+    text-transform: none;
+    color: rgb(27, 26, 26);
+    display: block;
+    font-size: 14px;
+    margin-top: .5em;
+
+    margin-left: 620px;
+    padding-bottom: 70px;
+
+
+    text-decoration: none;
+  position: relative;
+}
